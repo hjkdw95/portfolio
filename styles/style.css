@@ -203,6 +203,10 @@ header .left-header a {
     line-height: 1.8em;
 }
 
+.profile-detail-summary {
+    margin-bottom: 150px;
+}
+
 .detail-link {
     width: 100%;
     height: 400px;
