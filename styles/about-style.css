@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header .right-header {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+header .left-header a {
+    padding: 0 30px;
+    font-weight: 100;
+}
+
+.current-page {
+    color: #4834d4;
+}
+
+.main-square {
+    position: relative;
+    top: -11%;
+    left: 50%;
+    width: 900px;
+    height: 750px;
+    background-color: #fff6d1;
+    z-index: -100;
+}
+
+.main {
+    height: 900px;
+}
+
+.main-letter {
+    position: relative;
+    top: -60%;
+    left: 20%;
+    margin: 0;
+    font-size: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #4834d4;
+}
+
+.main-letter h1 {
+    margin: 0;
+}
+
+
+footer {
+    margin: 100px;
+    color: #4834d4;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-information div{
+    padding-bottom: 10px;
+}
+
+.fab {
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 50px;
+}
