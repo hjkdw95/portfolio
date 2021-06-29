@@ -21,6 +21,7 @@ header .right-header {
 
 header .left-header a {
     padding: 0 30px;
+    font-weight: 100;
 }
 
 .current-page {
@@ -69,6 +70,7 @@ header .left-header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 250px;
 }
 
 .skill-form {
@@ -83,8 +85,7 @@ header .left-header a {
 
 .skill-form:hover {
     border: 2px solid #4834d4;
-    background-color: #fff;
-    
+    background-color: #fff; 
 }
 
 .skill-form h3 {
@@ -105,4 +106,55 @@ header .left-header a {
     color: #4834d4;
     font-size: 12px;
     border-bottom: solid 2px #4834d4;
+}
+
+.works {
+    height: 600px;
+    text-transform: capitalize;
+    margin-bottom: 250px;
+}
+
+.works .main-square {
+    left: 0%;
+    width: 800px;
+    height: 600px;
+}
+
+.works-contents {
+    position: relative;
+    top: -95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 230px;
+}
+
+.title {
+    color: #4834d4;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.works-details {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.work {
+    margin: 0 15px;
+}
+
+.work:first-child {
+    margin-left: 0;
+}
+
+.work-img {
+    display: block;
+    width: 370px;
+    height: 230px;
+    background-image: url("../assets/스크린샷\ 2021-06-29\ 오전\ 11.24.41.png");
+    background-size: cover;
+    margin-bottom: 10px;
 }
