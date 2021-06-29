@@ -208,3 +208,24 @@ header .left-header a {
     font-size: 18px;
     font-weight: 700;
 }
+
+footer {
+    margin: 100px;
+    color: #4834d4;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-information div{
+    padding-bottom: 10px;
+}
+
+.fab {
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 50px;
+}
+
