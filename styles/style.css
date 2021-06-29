@@ -111,7 +111,7 @@ header .left-header a {
 .works {
     height: 600px;
     text-transform: capitalize;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .works .main-square {
@@ -157,4 +157,34 @@ header .left-header a {
     background-image: url("../assets/스크린샷\ 2021-06-29\ 오전\ 11.24.41.png");
     background-size: cover;
     margin-bottom: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 500px
+}
+
+.about-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    background-image: url("../assets/KakaoTalk_Photo_2021-06-29-09-25-32.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+}
+
+.profile-detail-summary {
+    width: 400px;
+    height: 350px;
+    background-color: #fff6d1;
+    padding: 40px;
+    color: grey;
+    line-height: 1.8em;
 }
