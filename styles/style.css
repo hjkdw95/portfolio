@@ -156,9 +156,21 @@ header .left-header a {
     display: block;
     width: 370px;
     height: 230px;
-    background-image: url("../assets/스크린샷\ 2021-06-29\ 오전\ 11.24.41.png");
     background-size: cover;
+    background-position: center;
     margin-bottom: 10px;
+}
+
+.interactive {
+    background-image: url("../assets/스크린샷\ 2021-06-29\ 오전\ 11.27.47.png");
+}
+
+.brunch {
+    background-image: url("../assets/스크린샷\ 2021-06-29\ 오후\ 3.34.44.png");
+}
+
+.carrot {
+    background-image: url("../assets/스크린샷\ 2021-06-29\ 오전\ 11.30.39.png");
 }
 
 .about {
