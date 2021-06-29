@@ -11,19 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ef5ec0d29.js" crossorigin="anonymous"></script>
     <title>Welcome</title>
 </head>
 <body>
     <header>
         <div class="right-header">
-            HyunJae Kim
+            <a href="#">HyunJae Kim</a>
         </div>
         <div class="left-header">
             <a href="#" class="current-page">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Works</a>
-            <a href="#">Contact</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./works.html">Works</a>
         </div>
     </header>
     
@@ -33,92 +33,90 @@
             <h1>
                 Glad to Meet You.
             </h1>
-            <a href="#" class="detail">VIEW MORE ABOUT ME</a>
+            <a href="./about.html" class="detail">VIEW MORE ABOUT ME</a>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="skill-form">
+            <h3>HTML CSS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+            <a href="./skills.html" class="mini-detail">VIEW DETAILS</a>
+        </div>
+        <div class="skill-form">
+            <h3>Javascript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+            <a href="./skills.html" class="mini-detail">VIEW DETAILS</a>
+        </div>
+        <div class="skill-form">
+            <h3>Communication Tools</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
+            <a href="./skills.html" class="mini-detail">VIEW DETAILS</a>
+        </div>    
+    </section>
+
+    <section class="works">
+        <div class="main-square"></div>
+        <div class="works-contents">
+            <a href="#" class="title">Portfolio</a>
+            <div class="works-details">
+                <div class="work">
+                    <a href="./works.html" class="work-img"></a>
+                    <a href="./works.html">first work</a>
+                </div>
+                <div class="work">
+                    <a href="./works.html" class="work-img"></a>
+                    <a href="./works.html">Second work</a>
+                </div>
+                <div class="work">
+                    <a href="./works.html" class="work-img"></a>
+                    <a href="./works.html">Third work</a>
+                </div>
+            </div> 
         </div>
         
     </section>
-    
-    <section class="skills">
-        <div class="html">
-            <h3>HTML CSS</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
-            <a href="#" class="detail">VIEW DETAILS</a>
-        </div>
-        <div class="javascript">
-            <h3>Javascript</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
-            <a href="#" class="detail">VIEW DETAILS</a>
-        </div>
-        <div class="git">
-            <h3>Communication Tools</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed!</p>
-            <a href="#" class="detail">VIEW DETAILS</a>
-        </div>
-    </section>
-    <div class="main-square"></div>
-    <section class="works">
-        <h2>Portfolio</h2>
-        <div class="work">
-            <a href="#" class="first-work-img"></a>
-            <a href="#">first work</a>
-        </div>
-        <div class="work">
-            <a href="#" class="second-work-img"></a>
-            <a href="#">Second work</a>
-        </div>
-        <div class="work">
-            <a href="#" class="Third-work-img"></a>
-            <a href="#">Third work</a>
-        </div>
-    </section>
+
     <section class="about">
-        <h2>About me</h2>
+        <a href="./about.html" class="title">About me</a>
         <div class="about-detail">
-            <img src="" alt="">
-            <div class="detail-summary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae perspiciatis itaque sint a autem cumque hic illum. Consectetur voluptas debitis, soluta unde illo optio accusamus perferendis omnis quidem explicabo?
+            <div class="profile-img"></div>
+            <div class="profile-contents">
+                <div class="profile-detail-summary">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae perspiciatis itaque sint a autem cumque hic illum. Consectetur voluptas debitis, soluta unde illo optio accusamus perferendis omnis quidem explicabo?"
+                    
+                </div>
+                <a href="./about.html" class="mini-detail">VIEW MORE</a>
             </div>
+            
         </div>
     </section>
-    <section class="blog">
-        <div class="blog-summary">
-            <h2>Blog</h2>
-            <a href="#" class="detail">View More</a>
-        </div>
-        <div class="post">
-            <img src="" alt="">
-            <div class="blog-post">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora sit, tempore atque iure laboriosam debitis quod saepe amet architecto, inventore excepturi illo nemo dolor id perspiciatis quas! Sunt, eligendi.
-            </div>
-        </div>
-        <div class="post">
-            <img src="" alt="">
-            <div class="blog-post">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora sit, tempore atque iure laboriosam debitis quod saepe amet architecto, inventore excepturi illo nemo dolor id perspiciatis quas! Sunt, eligendi.
-            </div>
-        </div>
-        <div class="post">
-            <img src="" alt="">
-            <div class="blog-post">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora sit, tempore atque iure laboriosam debitis quod saepe amet architecto, inventore excepturi illo nemo dolor id perspiciatis quas! Sunt, eligendi.
-            </div>
-        </div>
+
+    <section class="detail-link">
+        <h1>혹시, 저에 대해 좀 더 알고싶으신가요?😁</h1>
+        <a href="./about.html" class="mini-detail">더 자세한 소개를 알아보세요</a>
     </section>
-    <section class="contacts">
-        저에 대해 좀 더 알고싶으신가요?
-        <a href="#" class="detail">더 자세한 소개를 알아보세요</a>
-    </section>
+
     <footer>
         <h1>HyunJae Kim</h1>
         <div class="contacts">
-            email : hjkdw9506@gmail.com
-            + 82 010 4039 5482
+            <div class="personal-information">
+                <div>
+                    email : hjkdw9506@gmail.com
+                </div>
+                <div>
+                    + 82 010 4039 5482
+                </div>
+            </div>
+            <div class="links">
+                <a href="https://github.com/hjkdw95">
+                    <i class="fab fa-github"></i>
+                </a>   
+                <a href="https://velog.io/@hjkdw95">
+                    <i class="fab fa-blogger"></i>
+                </a>     
+            </div>
         </div>
-        <div class="links">    
-            <a href="#" class="github"></a>
-            <a href="#" class="blog"></a>
-        </div>
-
     </footer>
 </body>
 </html>

@@ -30,7 +30,7 @@ header .left-header a {
 
 .main-square {
     position: relative;
-    top: -11%;
+    top: -12%;
     left: 50%;
     width: 900px;
     height: 750px;
@@ -62,36 +62,6 @@ header .left-header a {
     text-transform: capitalize;
     font-size: 30px;
 }
-
-.about-page {
-    margin-bottom: 300px;
-}
-
-.about-detail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-image {
-    background-image: url("../assets/KakaoTalk_Photo_2021-06-29-09-25-32.jpeg");
-    width: 350px;
-    height: 500px;
-    background-size: cover;
-    margin-right: 100px;
-}
-
-.about-contents {
-    padding: 60px;
-    width: 500px;
-    color: grey;
-}
-
-.about-main {
-    border-left: 8px solid #4834d4;
-    padding-left: 30px;
-}
-
 
 footer {
     margin: 100px;
