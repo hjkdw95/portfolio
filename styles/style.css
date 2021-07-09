@@ -67,6 +67,10 @@ header .left-header a {
     color: rgb(60, 44, 167);
 }
 
+.main-letter .mini-detail:hover {
+    border-bottom: solid 2px rgb(60, 44, 167);
+}
+
 .skills {
     display: flex;
     justify-content: center;
