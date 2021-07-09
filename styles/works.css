@@ -130,6 +130,11 @@ header .left-header a {
     font-family: 'Archivo Black', sans-serif;
 }
 
+.work-link:hover {
+    color: rgb(50, 36, 143);
+    border-bottom: solid 2px rgb(50, 36, 143);
+}
+
 .detail-link {
     width: 100%;
     height: 400px;

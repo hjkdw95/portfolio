@@ -56,14 +56,15 @@ header .left-header a {
     margin: 0;
 }
 
-.main-letter .detail {
+.main-letter .mini-detail {
     font-size: 18px;
     padding-bottom: 2px;
     border-bottom: solid #4834d4 2px;
+    font-family: 'Archivo Black', sans-serif;
 }
 
-.detail {
-    font-family: 'Archivo Black', sans-serif;
+.mini-detail:hover {
+    color: rgb(60, 44, 167);
 }
 
 .skills {
