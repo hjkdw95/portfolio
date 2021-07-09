@@ -74,6 +74,10 @@ header .left-header a {
     font-size: 30px;
 }
 
+.contact-page {
+    height: 800px;
+}
+
 .contact-page .main-square {
     position: relative;
     top: 0;
@@ -99,7 +103,8 @@ header .left-header a {
 #contact-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    margin-right: 80px;
 }
 
 .user_input {
@@ -143,6 +148,29 @@ textarea:focus {
     background-color: #4834d4;
     border: none;
 }
+
+.contact-info {
+    margin-bottom: 200px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.contact-info dl {
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+.contact-info dd {
+    color: #8C8D96;
+    margin: 0;
+}
+
+
+
 
 footer {
     margin: 100px;
