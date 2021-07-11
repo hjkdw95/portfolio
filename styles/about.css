@@ -101,6 +101,7 @@ footer {
 .contacts {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .personal-information div{
@@ -111,4 +112,8 @@ footer {
     display: inline-block;
     font-size: 35px;
     margin-right: 50px;
+}
+
+.copyright {
+    text-align: center;
 }
