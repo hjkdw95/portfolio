@@ -1,4 +1,10 @@
 # Portfolio 제작기
+## Updates (21.07.12)
+contact page를 추가하여, 포트폴리오 페이지에서 메일 전송이 가능해졌습니다.<br>
+메일 전송 기능은 EmailJS를 활용하였습니다.<br>
+[보러가기](https://hjkdw95.github.io/portfolio/)
+<br>
+<br>
 
 ## Preview
 ![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/76423949/123883112-41a1d480-d983-11eb-93f8-52c53fb3c6f7.gif)
@@ -35,7 +41,7 @@ mbti 및 좌우명 적기(어떤 개발자가 되기 위해 노력하는지 적�
 1. javascript DOM 이용해서 좀 더 부드러운 event 넣어주기
 2. 자기소개 좀 더 잘쓰기
 3. ⭐️scss 배운 내용으로 css 리팩토링 해보기 → 좀 더 코드를 효율적으로 쓸 수 있는 방법 없을지 고민
-4. 메일보내기 기능 추가해보고 싶다(contact page)
+4. ~~메일보내기 기능 추가해보고 싶다(contact page)~~ -> 21/07/09 구현 완료
 5. bootstrap을 활용?! **모바일 화면도 구현해보기**
 <br><br>
 
