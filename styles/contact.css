@@ -2,15 +2,6 @@
     box-sizing: border-box;
 }
 
-input :focus,
-input :active, 
-textarea :focus,
-textarea :active {
-    box-shadow: none;
-    outline: none;
-    text-decoration: none;
-}
-
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
@@ -40,7 +31,7 @@ header .left-header a {
 
 .main-square {
     position: relative;
-    top: -12%;
+    top: -15%;
     left: 50%;
     width: 900px;
     height: 750px;
@@ -50,7 +41,7 @@ header .left-header a {
 
 
 .main {
-    height: 670px;
+    height: 800px;
 }
 
 .main-letter {
@@ -80,7 +71,7 @@ header .left-header a {
 
 .contact-page .main-square {
     position: relative;
-    top: 0;
+    top: -21.5%;
     left: -3.5%;
     width: 900px;
     height: 750px;
@@ -90,7 +81,7 @@ header .left-header a {
 
 .contact-cover {
     position: relative;
-    top: -600px;
+    top: -780px;
 }
 
 .contact-contents {
@@ -176,9 +167,6 @@ textarea:focus {
     margin: 0;
 }
 
-
-
-
 footer {
     margin: 100px;
     color: #4834d4;
@@ -187,6 +175,7 @@ footer {
 .contacts {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .personal-information div{
@@ -197,4 +186,8 @@ footer {
     display: inline-block;
     font-size: 35px;
     margin-right: 50px;
+}
+
+.copyright {
+    text-align: center;
 }
