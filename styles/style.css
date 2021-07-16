@@ -74,7 +74,7 @@ header .left-header a {
     
 }
 
-@keyframes blink {
+@keyframes blink { /* after에 애니메이션 effect */
     0% {
         opacity: 0;
     }
@@ -186,13 +186,26 @@ header .left-header a {
     margin-left: 0;
 }
 
-.work-img {
-    display: block;
+.work-cover { /* cover씌워서 css로 이미지 scale 처리 */
     width: 370px;
     height: 230px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.work-img {
+    display: block;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     margin-bottom: 10px;
+    transition: all 400ms ease-out;
+}
+
+.work-img:hover {
+    transform: scale(1.15);
+    opacity: 0.7;
 }
 
 .interactive {
