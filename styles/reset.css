@@ -32,3 +32,12 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+button {
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
