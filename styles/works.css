@@ -180,7 +180,7 @@ header .left-header a {
     margin-bottom: 100px;
 }
 
-.exit {
+.fas {
     position: relative;
     top: -50%;
     right: -2%;
@@ -188,7 +188,7 @@ header .left-header a {
     color: #4834d4;
 }
 
-.exit:hover {
+.fas:hover {
     cursor: pointer;
 }
 
