@@ -47,6 +47,11 @@ function popupID() {
 function openPopup(id){
     let popup = document.getElementById(`${id}`);
     popup.classList.remove("disappear");
+    changeHeigth(id);
+}
+
+// 각 팝업창 높이 조절
+function changeHeigth(id) {    
     switch(id) {
         case '1' : 
             break;
