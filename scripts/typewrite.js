@@ -10,4 +10,12 @@ function typing() {
     }   
 }
 
-setInterval(typing, 100);
+function start(){
+    setInterval(typing, 100);
+}
+
+function init(ms) {
+    setTimeout(start, ms)
+};
+
+init(50);
