@@ -30,7 +30,7 @@ header .left-header a {
 
 .main-square {
     position: relative;
-    top: -11%;
+    top: -12%;
     left: 50%;
     width: 900px;
     height: 750px;
@@ -52,8 +52,29 @@ header .left-header a {
     color: #4834d4;
 }
 
-.main-letter h1 {
+#main-title {
     margin: 0;
+    position: relative;
+}
+
+#main-title::after {
+    content: "";
+    position: absolute; /*main-title따라 움직이도록*/
+    width: 1px;
+    height: 80%;
+    border-right: 8px solid #4834d4;
+    animation : blink 0.5s infinite ease;
+    
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .main-letter .mini-detail {
