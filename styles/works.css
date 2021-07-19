@@ -180,10 +180,14 @@ header .left-header a {
     margin-bottom: 100px;
 }
 
-.fas {
+.exit-btn {
     position: relative;
     top: -50%;
     right: -2%;
+}
+
+.fas {
+    
     font-size: 40px;
     color: #4834d4;
 }
