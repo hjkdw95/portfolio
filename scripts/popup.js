@@ -47,53 +47,53 @@ function popupID() {
 function openPopup(id){
     let popup = document.getElementById(`${id}`);
     popup.classList.remove("disappear");
-    changeHeigth(id);
+    //changeHeigth(id);
 }
 
 // 각 팝업창 높이 조절
-function changeHeigth(id) {    
-    switch(id) {
-        case '1' : 
-            break;
-        case '2' :
-            popup.childNodes[3].style.top = "150%";
-            break;
-        case '3' :
-            popup.childNodes[3].style.top = "200%";
-            break;
-        case '4' :
-            popup.childNodes[3].style.top = "250%";
-            break;
-        case '5' :
-            popup.childNodes[3].style.top = "275%";
-            break;     
-    }
-}
+// function changeHeigth(id) {    
+//     switch(id) {
+//         case '1' : 
+//             break;
+//         case '2' :
+//             popup.childNodes[3].style.top = "150%";
+//             break;
+//         case '3' :
+//             popup.childNodes[3].style.top = "200%";
+//             break;
+//         case '4' :
+//             popup.childNodes[3].style.top = "250%";
+//             break;
+//         case '5' :
+//             popup.childNodes[3].style.top = "275%";
+//             break;     
+//     }
+// }
 
 // 닫을 팝업창 id 찾기
 function shutPopup() {
-    interExit.addEventListener("click", (sth) => {
-        shutID = interExit.parentNode.parentNode.id;
+    interExit.addEventListener("click", (event) => {
+        shutID = event.target.parentNode.parentNode.parentNode.id;
         closePopup(shutID);
     })
 
-    brunchExit.addEventListener("click", (sth) => {
-        shutID = brunchExit.parentNode.parentNode.id;
+    brunchExit.addEventListener("click", (event) => {
+        shutID = event.target.parentNode.parentNode.parentNode.id;
         closePopup(shutID);
     })
 
-    carrotExit.addEventListener("click", (sth) => {
-        shutID = carrotExit.parentNode.parentNode.id;
+    carrotExit.addEventListener("click", (event) => {
+        shutID = event.target.parentNode.parentNode.parentNode.id;
         closePopup(shutID);
     })
 
-    momentumExit.addEventListener("click", (sth) => {
-        shutID = momentumExit.parentNode.parentNode.id;
+    momentumExit.addEventListener("click", (event) => {
+        shutID = event.target.parentNode.parentNode.parentNode.id;
         closePopup(shutID);
     })
 
-    habitExit.addEventListener("click", (sth) => {
-        shutID = habitExit.parentNode.parentNode.id;
+    habitExit.addEventListener("click", (event) => {
+        shutID = event.target.parentNode.parentNode.parentNode.id;
         closePopup(shutID);
     })
 }
