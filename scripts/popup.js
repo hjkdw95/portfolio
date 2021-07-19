@@ -47,28 +47,29 @@ function popupID() {
 function openPopup(id){
     let popup = document.getElementById(`${id}`);
     popup.classList.remove("disappear");
-    //changeHeigth(id);
+    changeHeigth(id);
 }
 
 // 각 팝업창 높이 조절
-// function changeHeigth(id) {    
-//     switch(id) {
-//         case '1' : 
-//             break;
-//         case '2' :
-//             popup.childNodes[3].style.top = "150%";
-//             break;
-//         case '3' :
-//             popup.childNodes[3].style.top = "200%";
-//             break;
-//         case '4' :
-//             popup.childNodes[3].style.top = "250%";
-//             break;
-//         case '5' :
-//             popup.childNodes[3].style.top = "275%";
-//             break;     
-//     }
-// }
+function changeHeigth(id) {  
+    let popup = document.getElementById(`${id}`);  
+    switch(id) {
+        case '1' : 
+            break;
+        case '2' :
+            popup.childNodes[3].style.top = "145%";
+            break;
+        case '3' :
+            popup.childNodes[3].style.top = "180%";
+            break;
+        case '4' :
+            popup.childNodes[3].style.top = "220%";
+            break;
+        case '5' :
+            popup.childNodes[3].style.top = "275%";
+            break;     
+    }
+}
 
 // 닫을 팝업창 id 찾기
 function shutPopup() {
