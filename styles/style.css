@@ -192,6 +192,12 @@ header .left-header a {
     height: 230px;
     overflow: hidden;
     background-color: #000;
+    margin-bottom: 10px;
+}
+
+.work-link {
+    font-family: 'Archivo Black', sans-serif;
+    color: grey;
 }
 
 .work-img {
