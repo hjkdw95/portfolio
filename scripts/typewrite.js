@@ -14,8 +14,8 @@ function start(){
     setInterval(typing, 100);
 }
 
-function init(ms) {
-    setTimeout(start, ms)
+function init() {
+    start();
 };
 
-init(50);
+init();
