@@ -216,15 +216,15 @@ header .left-header a {
 }
 
 .interactive {
-    background-image: url("../assets/zoomin.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/zoomin.png");
 }
 
 .brunch {
-    background-image: url("../assets/brunch.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/brunch.png");
 }
 
 .carrot {
-    background-image: url("../assets/carrot_game.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/carrot.png");
 }
 
 .about {
