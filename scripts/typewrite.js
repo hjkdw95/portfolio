@@ -14,8 +14,4 @@ function start(){
     setInterval(typing, 100);
 }
 
-function init() {
-    start();
-};
-
-init();
+start();
