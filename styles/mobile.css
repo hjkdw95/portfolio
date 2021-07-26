@@ -91,7 +91,7 @@
     /* works */
 
     .works {
-        height: 115vh;
+        height: 170vh;
         margin-bottom: 80px;
     }
 
@@ -132,7 +132,6 @@
     
 
     /* about */
-    /* 아니 도대체 왜 왼쪽으로 붙어있는지 모르겠네 */
     .about {
         display: block;
         flex-direction: inherit;
@@ -211,6 +210,7 @@
         padding-bottom: 20px;
     }
 
+    /* 이것도 DOM으로 <br> 넣기 */
     .copyright {
         font-size: 13px;
         padding: 10px;
