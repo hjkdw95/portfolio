@@ -98,23 +98,23 @@ header .left-header a {
 }
 
 .interactive {
-    background-image: url("../assets/zoomin.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/zoomin.png");
 }
 
 .brunch {
-    background-image: url("../assets/brunch.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/brunch.png");
 }
 
 .carrot {
-    background-image: url("../assets/carrot_game.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/carrot_game.png");
 }
 
 .momentum {
-    background-image: url("../assets/momentum.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/momentum.png");
 }
 
 .habit {
-    background-image: url("../assets/habit_tracker.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/porfolio/assets/habit_tracker.png");
 }
 
 .work-contents {
