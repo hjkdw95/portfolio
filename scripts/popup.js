@@ -1,4 +1,4 @@
-const works = document.querySelector(".works");
+const works = document.querySelector(".works-field");
 const popups = document.querySelector(".popups");
 
 

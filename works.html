@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/works.css">
+    <link rel="stylesheet" href="./style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2ef5ec0d29.js" crossorigin="anonymous"></script>
+    <script src="./scripts/mobile_change.js" defer></script>
+    <script src="./scripts/popup.js" defer></script>
+    <script src="./scripts/title-up.js" defer></script>
     <title>Works</title>
 </head>
 <body>
@@ -31,52 +34,52 @@
     <section class="main">
         <div class="main-square"></div>
         <div class="main-letter">
-            <h1 id="main-title">
+            <h1 id="content-title">
                 Works.
             </h1>
         </div>
     </section>
 
-    <section class="works">
-        <div class="work">
-            <div class="work-img interactive"></div>
+    <section class="works-field">
+        <div class="work-box">
+            <div class="img interactive"></div>
             <div class="work-contents">
                 <h3 class="title">interactive web practice</h3>
                 <p>Mousemove, scroll event를 활용하여 zoom-in효과를 주는 반응형 웹을 제작하였습니다</p>
-                <button type="button" class="work-link" data-index-number="1">자세히 보기</button>
+                <button type="button" class="mini-detail" data-index-number="1">자세히 보기</button>
             </div>
         </div>
-        <div class="work">
-            <div class="work-img brunch"></div>
+        <div class="work-box">
+            <div class="img brunch"></div>
             <div class="work-contents">
                 <h3 class="title">Brunch page Clone Project</h3>
                 <p>scroll event를 활용하여 스크롤 할 수록 배경 이미지가 fadeout되도록 작업하였습니다</p>
-                <button type="button" class="work-link" data-index-number="2">자세히 보기</button>
+                <button type="button" class="mini-detail" data-index-number="2">자세히 보기</button>
             </div>
         </div>
-        <div class="work">
-            <div class="work-img carrot"></div>
+        <div class="work-box">
+            <div class="img carrot"></div>
             <div class="work-contents">
                 <h3 class="title">Finding Carrot Game</h3>
                 <p>mouseover, click이벤트를 사용하여 제한시간 내에 당근을 모두 클릭해야 성공하는 게임을 제작하였습니다</p>
-                <button type="button" class="work-link" data-index-number="3">자세히 보기</button>
+                <button type="button" class="mini-detail" data-index-number="3">자세히 보기</button>
             </div>
         </div>
-        <div class="work">
-            <div class="work-img momentum"></div>
+        <div class="work-box">
+            <div class="img momentum"></div>
             <div class="work-contents">
                 <h3 class="title">Momentum</h3>
                 <p>Chrome App인 Momentum을 제작해보았습니다<br> 위치 기반 날씨, 시간 확인, to-do list 기능을 탑재하였습니다</p>
-                <button type="button" class="work-link" data-index-number="4">자세히 보기</button>
+                <button type="button" class="mini-detail" data-index-number="4">자세히 보기</button>
             </div>
         </div>
-        <div class="work">
-            <div class="work-img habit"></div>
+        <div class="work-box">
+            <div class="img habit"></div>
             <div class="work-contents">
                 <h3 class="title">Habit Tracker</h3>
                 <p>React class component를 이용하여 간단한 Habit tracker를 제작하였습니다.<br>
                 동 건은 yarn, netlify를 활용하여 배포되었습니다</p>
-                <button type="button" class="work-link" data-index-number="5">자세히 보기</button>
+                <button type="button" class="mini-detail" data-index-number="5">자세히 보기</button>
             </div>
         </div>
 
@@ -89,7 +92,7 @@
                     <div class="popup-contents">
                         <div class="title">interactive web practice</div>
                         <p>Mousemove, scroll event를 활용하여 zoom-in효과를 주는 반응형 웹을 제작하였습니다</p>
-                        <a href="https://github.com/hjkdw95/layer-practice" class="work-link">Github 바로가기</a>
+                        <a href="https://github.com/hjkdw95/layer-practice" class="mini-detail">Github 바로가기</a>
                     </div>
                     <div class="exit-btn">
                         <i class="fas fa-times"></i>
@@ -104,7 +107,7 @@
                     <div class="popup-contents">
                         <div class="title">Brunch page Clone Project</div>
                         <p>scroll event를 활용하여 스크롤 할 수록 배경 이미지가 fadeout되도록 작업하였습니다</p>
-                        <a href="https://github.com/hjkdw95/brunch-page" class="work-link">Github 바로가기</a>
+                        <a href="https://github.com/hjkdw95/brunch-page" class="mini-detail">Github 바로가기</a>
                     </div>
                     <div class="exit-btn">
                         <i class="fas fa-times"></i>
@@ -118,7 +121,7 @@
                     <div class="popup-contents">
                         <div class="title">Finding Carrot Game</div>
                         <p>mouseover, click이벤트를 사용하여 제한시간 내에 당근을 모두 클릭해야 성공하는 게임을 제작하였습니다</p>
-                        <a href="https://github.com/hjkdw95/javascript101/tree/main/carrot" class="work-link">Github 바로가기</a>
+                        <a href="https://github.com/hjkdw95/javascript101/tree/main/carrot" class="mini-detail">Github 바로가기</a>
                     </div> 
                     <div class="exit-btn">
                         <i class="fas fa-times"></i>
@@ -133,7 +136,7 @@
                         <div class="title">Momentum</div>
                         <p>Chrome App인 Momentum을 제작해보았습니다<br> 
                         위치 기반 날씨, 시간 확인, to-do list 기능을 탑재하였습니다</p>
-                        <a href="https://github.com/hjkdw95/momentum" class="work-link">Github 바로가기</a>
+                        <a href="https://github.com/hjkdw95/momentum" class="mini-detail">Github 바로가기</a>
                     </div>           
                     <div class="exit-btn">
                         <i class="fas fa-times"></i>
@@ -148,7 +151,7 @@
                         <div class="title">Habit Tracker</div>
                         <p>React class component를 이용하여 간단한 Habit tracker를 제작하였습니다.<br>
                         동 건은 yarn, netlify를 활용하여 배포되었습니다</p>
-                        <a href="https://github.com/hjkdw95/react-practice" class="work-link">Github 바로가기</a>
+                        <a href="https://github.com/hjkdw95/react-practice" class="mini-detail">Github 바로가기</a>
                     </div>
                     <div class="exit-btn">
                         <i class="fas fa-times"></i>
@@ -158,8 +161,8 @@
         </div>  
     </section>
     <section class="detail-link">
-        <h1>더 많은 작업 내용은 Github에서 확인하세요🤗</h1>
-        <a href="https://github.com/hjkdw95" class="work-link">Github 바로가기</a>
+        <h1 class="detailJS"></h1>
+        <a href="./about.html" class="mini-detail">더 자세한 소개를 알아보세요</a>
     </section>
 
     <footer>
@@ -184,8 +187,5 @@
         </div>
         <div class="copyright">Copyright © 2021 | All rights reserved. | HYUNJAE KIM</div>
     </footer>
-
-    <script src="./scripts/title-up.js"></script>
-    <script src="./scripts/popup.js"></script>
 </body>
 </html>

@@ -1,66 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-header .right-header {
-    font-weight: 700;
-    font-size: 25px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-}
-
-header .left-header a {
-    padding: 0 30px;
-    font-weight: 100;
-}
-
-.current-page {
-    color: #4834d4;
-}
-
-.main-square {
-    position: relative;
-    top: -12%;
-    left: 50%;
-    width: 900px;
-    height: 750px;
-    background-color: #fff6d1;
-    z-index: -100;
-}
-
-.main {
-    height: 800px;
-}
-
-.main-letter {
-    position: relative;
-    top: -40%;
-    left: 20%;
-    margin: 0;
-    font-size: 70px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #4834d4;
-    opacity: 0;
-    transition: all 700ms ease-in-out;
-}
-
-.letter-up {
-    top: -60%;
-    opacity: 1;
-}
-
-#main-title {
-    margin: 0;
+.skills {
+    flex-direction: column;
 }
 
 .skill {
@@ -70,6 +9,7 @@ header .left-header a {
     border: 2px solid #fff6d1;
     padding: 30px;
     transition: ease-in 150ms;
+    margin: 20px;
 }
 
 .skill:hover {
@@ -89,12 +29,10 @@ header .left-header a {
     margin: 0 400px 200px;
 }
 
-.title {
-    font-weight: 700;
-    color: #4834d4;
-    text-transform: capitalize;
-    font-size: 20px;
-    margin: 0 0 30px 0;
+.skill .title {
+    padding-bottom: 0;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .skill p {
@@ -102,44 +40,5 @@ header .left-header a {
     font-weight: 100;
     color: grey;
     line-height: 1.7em;
-}
-
-.work-link {
-    display: inline-block;
-    color: #4834d4;
-    font-size: 12px;
-    border-bottom: solid 2px #4834d4;
-    padding-top: 30px;
-    font-family: 'Archivo Black', sans-serif;
-}
-
-.work-link:hover {
-    color: rgb(50, 36, 143);
-    border-bottom: solid 2px rgb(50, 36, 143);
-}
-
-
-footer {
-    margin: 100px;
-    color: #4834d4;
-}
-
-.contacts {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-}
-
-.personal-information div{
-    padding-bottom: 10px;
-}
-
-.fab {
-    display: inline-block;
-    font-size: 35px;
-    margin-right: 50px;
-}
-
-.copyright {
-    text-align: center;
+    margin-bottom: 10px;
 }

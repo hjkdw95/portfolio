@@ -1,67 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-header .right-header {
-    font-weight: 700;
-    font-size: 25px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-}
-
-header .left-header a {
-    padding: 0 30px;
-    font-weight: 100;
-}
-
-.current-page {
-    color: #4834d4;
-}
-
-.main-square {
-    position: relative;
-    top: -12%;
-    left: 50%;
-    width: 900px;
-    height: 750px;
-    background-color: #fff6d1;
-    z-index: -100;
-}
-
-.main {
-    height: 900px;
-}
-
-.main-letter {
-    position: relative;
-    top: -40%;
-    left: 20%;
-    margin: 0;
-    font-size: 70px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #4834d4;
-    opacity: 0;
-    transition: all 700ms ease-in-out;
-}
-
-.letter-up {
-    top: -60%;
-    opacity: 1;
-}
-
+/* main animation */
 #main-title {
-    margin: 0;
     position: relative;
 }
 
@@ -71,8 +9,7 @@ header .left-header a {
     width: 1px;
     height: 80%;
     border-right: 8px solid #4834d4;
-    animation : blink 0.5s infinite ease;
-    
+    animation : blink 0.5s infinite ease;  
 }
 
 @keyframes blink { /* after에 애니메이션 effect */
@@ -85,23 +22,9 @@ header .left-header a {
     }
 }
 
-.main-letter .mini-detail {
-    font-size: 18px;
-    padding-bottom: 2px;
-    border-bottom: solid #4834d4 2px;
-    font-family: 'Archivo Black', sans-serif;
-}
+/* skills */
 
-.mini-detail:hover {
-    color: rgb(60, 44, 167);
-    border-bottom: solid 2px rgb(60, 44, 167);
-}
-
-.main-letter .mini-detail:hover {
-    border-bottom: solid 2px rgb(60, 44, 167);
-}
-
-.skills {
+.main-skills {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,13 +60,7 @@ header .left-header a {
     margin: 0 0 15px 0;
 }
 
-.mini-detail {
-    color: #4834d4;
-    font-size: 12px;
-    border-bottom: solid 2px #4834d4;
-    font-family: 'Archivo Black', sans-serif;
-}
-
+/* works */
 .works {
     height: 600px;
     text-transform: capitalize;
@@ -227,6 +144,7 @@ header .left-header a {
     background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/carrot_game.jpeg");
 }
 
+/* about */
 .about {
     display: flex;
     flex-direction: column;
@@ -260,48 +178,3 @@ header .left-header a {
 .profile-detail-summary {
     margin-bottom: 150px;
 }
-
-.detail-link {
-    width: 100%;
-    height: 400px;
-    background-color: #fff6d1;
-    color: #4834d4;
-    padding: 100px 400px;
-    margin-bottom: 100px;
-}
-
-.detail-link h1 {
-    font-size: 45px;
-}
-
-.detail-link .mini-detail {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-footer {
-    margin: 100px;
-    color: #4834d4;
-}
-
-.contacts {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-}
-
-.personal-information div{
-    padding-bottom: 10px;
-}
-
-.fab {
-    display: inline-block;
-    font-size: 35px;
-    margin-right: 50px;
-}
-
-.copyright {
-    color: grey;
-    text-align: center;
-}
-

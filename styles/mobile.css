@@ -1,5 +1,7 @@
 /* mobile */
+@import url("./mobile_works.css");
 @media screen and (max-width: 1024px) {
+
     body {
         overflow-x: hidden;
     }
@@ -140,8 +142,6 @@
         
     }
 
-    
-
     /* about */
     .about {
         display: block;
@@ -184,7 +184,6 @@
         margin: 0 0 80px 0;
     }
 
-    /* DOM으로 <br>만들어서 줄 나눔 하기 */
     .detail-link h1 {
         font-size: 30px;
         margin: 0 0 20px 0;
@@ -221,7 +220,6 @@
         padding-bottom: 20px;
     }
 
-    /* 이것도 DOM으로 <br> 넣기 */
     .copyright {
         font-size: 13px;
         padding: 10px;
