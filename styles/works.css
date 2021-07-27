@@ -58,19 +58,6 @@
     line-height: 1.6em;
 }
 
-.work-link {
-    display: inline-block;
-    color: #4834d4;
-    font-size: 15px;
-    border-bottom: solid 2px #4834d4;
-    font-family: 'Archivo Black', sans-serif;
-}
-
-.work-link:hover {
-    color: rgb(50, 36, 143);
-    border-bottom: solid 2px rgb(50, 36, 143);
-}
-
 /* popups */
 .popup {
     position: fixed;
