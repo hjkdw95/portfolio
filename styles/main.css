@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* mobile */
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+}
