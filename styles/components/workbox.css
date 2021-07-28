@@ -1,0 +1,53 @@
+.work-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px;
+}
+
+.work-contents {
+    width: 700px;
+    height: 250px;
+    background-color: #fff6d1;
+    padding: 40px;
+    color: grey;
+    font-weight: 100;
+    line-height: 1.6em;
+}
+
+.work-contents .title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+}
+
+.work p {
+    padding-bottom: 15px;
+}
+
+.img {
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.interactive {
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/zoomin.jpeg");
+}
+
+.brunch {
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/brunch.jpeg");
+}
+
+.carrot {
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/carrot_game.jpeg");
+}
+
+.momentum {
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/momentum.jpeg");
+}
+
+.habit {
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/habit_tracker.jpeg");
+}
