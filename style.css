@@ -1,3 +1,6 @@
+@import url("./styles/base/_font.css");
+@import url("./styles/base/reset.css");
+
 @import url("./styles/layouts/detail.css");
 @import url("./styles/layouts/footer.css");
 @import url("./styles/layouts/header.css");
@@ -20,9 +23,6 @@
 @import url("./styles/modules/buttons.css");
 @import url("./styles/modules/forms.css");
 @import url("./styles/modules/icons.css");
-
-@import url("./styles/base/_font.css");
-@import url("./styles/base/reset.css");
 
 @import url("./styles/main.css");
 
