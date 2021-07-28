@@ -53,13 +53,6 @@
         overflow: hidden;
     }
 
-    .main-letter {
-        top: -90%;
-        left: 0;
-        font-size: 20px;
-        padding: 10px;
-    }
-
     .works .main-square {
         top: 0;
         left: -3%;

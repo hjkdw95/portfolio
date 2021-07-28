@@ -31,6 +31,13 @@
     #main-title::after {
         border-right: 4px solid #4834d4;
     }
+
+    .main-letter {
+        top: -90%;
+        left: 0;
+        font-size: 20px;
+        padding: 10px;
+    }
 }
 
 @keyframes blink { /* after에 애니메이션 effect */
