@@ -1,0 +1,31 @@
+.user_input {
+    width: 700px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid 1px #E0E2E7;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.user_input:active, 
+.user_input:focus {
+    outline: none;
+    border: solid 1px #3F4150;
+}
+
+textarea {
+    width: 700px;
+    height: 250px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: solid 1px #E0E2E7;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+textarea:active,
+textarea:focus {
+    outline: none;
+    border: solid 1px #3F4150;
+}
