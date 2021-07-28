@@ -1,3 +1,18 @@
+/* main mini-detail */
+.main-letter .mini-detail {
+    font-size: 18px;
+    padding-bottom: 2px;
+    border-bottom: solid #4834d4 2px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+.main-letter .mini-detail:hover {
+    border-bottom: solid 2px rgb(60, 44, 167);
+}
+
+
+/* section mini-deatil */
 .mini-detail:hover {
     color: rgb(60, 44, 167);
     border-bottom: solid 2px rgb(60, 44, 167);
@@ -8,4 +23,10 @@
     font-size: 12px;
     border-bottom: solid 2px #4834d4;
     font-family: 'Archivo Black', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .mini-detail {
+        display: none;
+    }
 }
