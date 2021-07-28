@@ -1,0 +1,11 @@
+.mini-detail:hover {
+    color: rgb(60, 44, 167);
+    border-bottom: solid 2px rgb(60, 44, 167);
+}
+
+.mini-detail {
+    color: #4834d4;
+    font-size: 12px;
+    border-bottom: solid 2px #4834d4;
+    font-family: 'Archivo Black', sans-serif;
+}
