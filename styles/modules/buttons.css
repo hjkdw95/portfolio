@@ -17,3 +17,20 @@
 .disappear {
     display: none;
 }
+
+/* submit button */
+.submit-button {
+    width: 350px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #4834d4; 
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover,
+.submit-button:active {
+    background-color: rgb(60, 44, 167)
+}
