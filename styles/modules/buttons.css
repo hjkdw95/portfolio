@@ -1,0 +1,19 @@
+/* exit button */
+.exit-btn {
+    position: relative;
+    top: -50%;
+    right: -2%;
+}
+
+.fas {
+    font-size: 40px;
+    color: #4834d4;
+}
+
+.fas:hover {
+    cursor: pointer;
+}
+
+.disappear {
+    display: none;
+}
