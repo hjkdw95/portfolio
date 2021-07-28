@@ -1,0 +1,33 @@
+.main-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.skill-form {
+    background-color: #fff6d1;
+    width: 350px;
+    height: 200px;
+    margin: 0 30px;
+    padding: 25px;
+    border: 2px solid #fff6d1;
+    transition: ease-in 150ms;
+}
+
+.skill-form:hover {
+    border: 2px solid #4834d4;
+    background-color: #fff; 
+}
+
+.skill-form .title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+}
+
+.skill-form p {
+    color: grey;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin: 0 0 15px 0;
+}

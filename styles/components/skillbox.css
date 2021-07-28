@@ -2,6 +2,16 @@
     flex-direction: column;
 }
 
+.skill-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 200px;
+}
+
+.skill-box:last-child {
+    margin: 0 400px 200px;
+}
+
 .skill {
     width: 330px;
     height: 400px;
@@ -17,18 +27,6 @@
     background-color: #fff; 
 }
 
-.language {
-    display: flex;
-    justify-content: space-around;
-    margin: 200px;
-}
-
-.subskill {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 400px 200px;
-}
-
 .skill .title {
     padding-bottom: 0;
     margin: 0;
@@ -42,3 +40,4 @@
     line-height: 1.7em;
     margin-bottom: 10px;
 }
+
