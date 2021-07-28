@@ -67,3 +67,42 @@
 .main-letter .mini-detail:hover {
     border-bottom: solid 2px rgb(60, 44, 167);
 }
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    /* main */
+    .main {
+        height: 57vh;
+        margin-bottom: 5px;
+    }
+
+    .main-square {
+        top: -30%;
+        left: 53%;
+        width: 50%;
+        height: 120%;
+        overflow: hidden;
+    }
+
+    .main-letter {
+        top: -90%;
+        left: 0;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    #main-title {
+        margin-bottom: 20px;
+    }
+
+    #main-title::after {
+        border-right: 4px solid #4834d4;
+    }
+
+    .mini-detail {
+        display: none;
+    }
+}

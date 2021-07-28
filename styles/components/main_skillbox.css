@@ -31,3 +31,47 @@
     line-height: 1.2em;
     margin: 0 0 15px 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .skills {
+        display: block;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .skill-form {
+        width: 100%;
+        height: 12%;
+        margin: 0 0 30px 0;
+        padding: 25px;
+        opacity: 0;
+        transition: all 1000ms ease-in-out;
+    }
+
+   .skill-form:first-child {
+        opacity: 1;
+   }
+
+   #js {
+       background-color: #fff;
+       border: 2px solid #4834d4;
+   }
+    
+    .skill-form h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .skill-form p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .boxup {
+        opacity: 1;
+    }
+
+    .skill-form .mini-detail {
+        display: none;
+    }
+}
