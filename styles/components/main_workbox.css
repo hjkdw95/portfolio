@@ -4,12 +4,6 @@
     margin-bottom: 100px;
 }
 
-.works .main-square {
-    left: 0%;
-    width: 800px;
-    height: 600px;
-}
-
 .works-contents {
     position: relative;
     top: -95%;
@@ -82,13 +76,6 @@
     .works {
         height: 145vh;
         margin-bottom: 80px;
-    }
-
-    .works .main-square {
-        top: 0;
-        left: -3%;
-        width: 50%;
-        height: 60%;
     }
 
     .works-contents {
