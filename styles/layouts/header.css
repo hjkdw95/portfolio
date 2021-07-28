@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+header .right-header {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+header .left-header a {
+    padding: 0 30px;
+    font-weight: 100;
+}
+
+.current-page {
+    color: #4834d4;
+}
