@@ -1,0 +1,19 @@
+.contact-info {
+    margin-bottom: 200px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.contact-info dl {
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+.contact-info dd {
+    color: #8C8D96;
+    margin: 0;
+}
