@@ -16,7 +16,7 @@
 }
 
 .profile-img {
-    background-image: url("/assets/profile.jpeg");
+    background-image: url("https://cdn.jsdelivr.net/gh/hjkdw95/portfolio@main/assets/profile.jpeg");
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -48,6 +48,10 @@
     .about-detail {
         width: 100%;
         display: block;
+    }
+
+    .about-detail-column {
+        flex-direction: column;
     }
 
     .profile-img {
