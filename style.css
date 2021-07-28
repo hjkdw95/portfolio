@@ -3,7 +3,11 @@
 @import url("./styles/works.css");
 @import url("./styles/contact.css");
 @import url("./styles/main.css");
-@import url("./styles/reset.css");
+
+@import url("./styles/modules/section_title.css");
+
+@import url("./styles/base/_font.css");
+@import url("./styles//base/reset.css");
 
 * {
     box-sizing: border-box;
