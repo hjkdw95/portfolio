@@ -1,29 +1,35 @@
 # Portfolio 제작기
+## Preview
+![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/76423949/123883112-41a1d480-d983-11eb-93f8-52c53fb3c6f7.gif)
+<br>
+<br>
+
 ## Updates 
+### 21.07.29 Updates
+1. Popup 개선
+팝업 화면을 `position: fixed`로 가운데 고정하여 사용감 개선
+`event.target`사용하여 코드 개선<br>
+2. 페이지 로드 시간 개선
+이미지 파일을 CDN으로 우회하여 페이지 로드 시간 단축
+3. **모바일 페이지 구현**
+4. css 모듈별로 분리하여 유지 보수성 개선
+<br>
+
+[지금 구경하러 가기](https://hjkdw95.github.io/portfolio/index.html)
+<br>
+<br>
+
 ### 21.07.19 Updates
 Javascript 및 CSS 활용하여 main title에 typewrite effect 부여<br>
 Works페이지 "자세히 알아보기" 팝업창 생성<br>
 <br>
-[구경하기](https://hjkdw95.github.io/portfolio/index.html)
 <br>
-
 
 ### 21.07.12 UPdates
 contact page를 추가하여, 포트폴리오 페이지에서 메일 전송이 가능해졌습니다.<br>
 메일 전송 기능은 EmailJS를 활용하였습니다.<br>
 <br>
 <br>
-
-## Preview
-![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/76423949/123883112-41a1d480-d983-11eb-93f8-52c53fb3c6f7.gif)
-<br>
-<br>
-
-## 제작기간
-21.06.29 오전 9시~오후 5시 (full time)
-<br>
-<br>
-
 
 ## Page기획
 우선 간단하게 form만 만들어두었다. 향후 학습 진도에 맞추어 조금씩 Javascript 추가, scss 활용을 진행할 예정!<br>
